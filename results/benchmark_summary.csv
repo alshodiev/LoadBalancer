@@ -1,0 +1,4 @@
+timestamp,strategy,num_clients,requests_per_client,request_interval_ms,total_benchmark_time_s,total_requests_attempted,total_results_logged,successful_requests,success_rate_percent,throughput_rps,avg_latency_ms,p50_latency_ms,p90_latency_ms,p95_latency_ms,p99_latency_ms
+2025-05-16 11:54:12,round_robin,10,20,50,10.46,200,200,200,100.0,19.13,407.2,191.07,1095.92,1162.79,1235.07
+2025-05-16 11:54:36,least_loaded,10,20,50,15.36,200,200,200,100.0,13.02,667.54,652.91,1270.66,1391.35,1515.57
+2025-05-16 11:55:08,ewma,10,20,50,23.33,200,200,200,100.0,8.57,1054.83,1130.26,1505.94,1638.57,1764.47
