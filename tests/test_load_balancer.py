@@ -1,8 +1,5 @@
 import pytest
 from unittest.mock import MagicMock
-
-# Assuming your load balancer classes are in 'load_balancer.py' in the parent directory
-# Adjust sys.path if necessary or set up PYTHONPATH
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -99,5 +96,5 @@ class TestLeastLoadedStrategy:
 # TODO: Add tests for worker registration/removal effects on strategies
 
 # To run these tests (after installing pytest: pip install pytest):
-# Navigate to the `load_balancer_project` directory in your terminal
+# Navigate to the `load_balancer_project` directory
 # Run: pytest
